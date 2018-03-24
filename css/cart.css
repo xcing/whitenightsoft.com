@@ -1,0 +1,79 @@
+.p2w_popup_box{
+	position: absolute;
+	width:360px;
+	border: 1px solid #585858;
+	background-color:#FFFFFF;
+	display:none;
+	padding: 1px;
+	font: 12px tahoma,verdana, Helvetica, sans-serif;
+	color:#000000;
+	margin:0px;
+	overflow:auto;
+	z-index:1000;
+}
+.p2w_popup_box2{
+	position: absolute;
+	width:700px;
+	border: 10px solid #4a95c9;
+	background-color:#DDFF95;
+	display:none;
+	padding: 1px;
+	font: 12px tahoma,verdana, Helvetica, sans-serif;
+	color:#0066CC;
+	margin:0px;
+	overflow:auto;
+	z-index:1000;
+}
+.p2w_white12{
+    font: 12px  tahoma,verdana, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
+.p2w_box_btn{
+	border-left: solid 1px #000000;
+	border-top: solid 1px #000000;
+	border-bottom: solid 1px #000000;
+	BORDER-COLLAPSE: collapse;
+	display:-moz-inline-box;display:inline-block;
+	margin:0;outline:none;
+}
+.p2w_box_btn_1{
+	border-top: solid 1px #FFFFFF;
+	border-right: solid 1px #000000;
+	BORDER-COLLAPSE: collapse;
+	display:-moz-inline-box;display:inline-block;
+	margin:0;outline:none;
+}
+.p2w_box_bg_sky1 {
+	BORDER-RIGHT: #9999FF 1px solid; BORDER-TOP: #9999FF 1px solid; BORDER-LEFT: #9999FF 1px solid; BORDER-BOTTOM: #9999FF 1px solid;BORDER-COLLAPSE: collapse;	
+	background:#CCCCFF;
+}
+.p2w_box_bg_white1 {
+	BORDER-RIGHT: #9999FF 1px solid; BORDER-TOP: #9999FF 1px solid; BORDER-LEFT: #9999FF 1px solid; BORDER-BOTTOM: #9999FF 1px solid;BORDER-COLLAPSE: collapse;	
+	background:#FFFFFF;
+	color:#000000;
+}
+a.p2w_btn_red {
+	  FONT-SIZE: 10pt;COLOR: #FFFFFF;TEXT-DECORATION: none;
+	  cursor:pointer;  
+      font-family: tahoma,verdana,Microsoft Sans Serif, MS Sans Serif, sans-serif;
+	  background-color:#E80000;
+	  color: #FFFFFF;
+	  border:0px;
+	  width:auto;
+	  vertical-align:middle;
+}
+a.p2w_btn_red:hover {
+	  FONT-SIZE: 10pt;TEXT-DECORATION: none;
+	  cursor:pointer;  
+      font-family: tahoma,verdana,Microsoft Sans Serif, MS Sans Serif, sans-serif;
+	  background-color:#FF6262;
+	  border:0px;
+	  width:auto;
+	  vertical-align:middle;
+	  color: #FFFFFF;
+}
+#p2w_cart_empty {
+      height: 120px;
+      padding-top: 50px;
+      text-align: center;
+}

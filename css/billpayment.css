@@ -1,0 +1,80 @@
+body td div{
+    margin: 0;
+    font: 14px tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+}
+@media print {
+body {-webkit-print-color-adjust: exact;}
+}
+.txt_header_16 {
+    font: 16px tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+.txt_header_14 {
+    font: 14px tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+.txt_header_12 {
+    font: 12px tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+
+.txt_header_12b {
+    font: 12px tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+.txt_header_10b {
+    font: 10px tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+.txt_header_8b {
+    font: 8px tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+.txt_normal_12 {
+    font: 12px tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+}
+.txt_normal_10 {
+    font: 10px tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+}
+.txt_normal_8 {
+    font: 8px tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+}
+.txt_normal_14 {
+    font: 14px Browallia New,tahoma,verdana, Helvetica, sans-serif;
+    color: #000000;
+}
+.borderbox {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #666666 1px solid;BORDER-COLLAPSE: collapse;		
+}
+.borderbox2 {
+	BORDER-RIGHT: #000000 2px solid; BORDER-TOP: #000000 2px solid; BORDER-LEFT: #000000 2px solid; BORDER-BOTTOM: #000000 2px solid;BORDER-COLLAPSE: collapse;		
+}
+.borderbox3 {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid;BORDER-COLLAPSE: collapse;		
+}
+.bordercell{
+	BORDER-RIGHT:  #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid;BORDER-COLLAPSE: collapse;
+}
+.bordercell_head{
+	BORDER-RIGHT:  #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid;BORDER-COLLAPSE: collapse;
+        background-color: #D1D2D4;
+}
+.border_line_1 {
+	BORDER-BOTTOM: #666666 1px solid;BORDER-COLLAPSE: collapse;		
+}
+.border_line_2 {
+	BORDER-BOTTOM: #666666 1px dotted;BORDER-COLLAPSE: collapse;		
+}
+.border_line_3 {
+	BORDER-BOTTOM: #666666 1px dashed;BORDER-COLLAPSE: collapse;		
+}

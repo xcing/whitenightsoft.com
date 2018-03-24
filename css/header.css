@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header {
+	width: 100%;
+}
+	.topbar {
+		height: 40px;
+	}
+		.topbar > ul {
+			padding: 10px 0;
+			margin: 0;
+		}
+			.topbar > ul > li {
+				float: left;
+				font-size: 16px;
+				margin-left: 20px;
+			}
+	.main_header {
+		background-color: #313132;
+		border: 1px solid #4e4e50;
+	}
+		.zestlogo {
+			padding: 20px;
+			text-align: center;
+		}
+		.h_helpfield {
+			padding: 20px 0;
+		}
+			.h_helpfield ul > li {
+				float: left;
+				margin-bottom: 20px;
+				margin-right: 10px;
+			}
+                        .h_helpfield ul > li > a{
+				color: #FFF;
+                                text-decoration: none;
+                        }
+			.h_helpfield ul > li > a > span {
+				padding-left: 5px;
+				font-size: 14px;
+				display: inline-block;
+				padding-top: 10px;
+			}
+			/*.h_helpfield ul > li > a > i {
+				display: inline-block;
+				vertical-align: top;
+				width: 40px;
+				height: 40px;
+			}*/
+			li.howtoshop > a > i {
+				background: url("../images/header/icon_howtoshop.png") no-repeat;
+                                display: inline-block;
+				vertical-align: top;
+				width: 40px;
+				height: 40px;
+			}
+			li.help > a > i {
+				background: url("../images/header/icon_help.png") no-repeat;
+                                display: inline-block;
+				vertical-align: top;
+				width: 40px;
+				height: 40px;
+			}
+			li.contact > a > i {
+				background: url("../images/header/icon_contact.png") no-repeat;
+                                display: inline-block;
+				vertical-align: top;
+				width: 40px;
+				height: 40px;
+			}
+			li.howtoshop > a:hover > i {
+				background: url("../images/header/icon_howtoshop_hover.png") no-repeat;
+			}
+			li.help > a:hover > i {
+				background: url("../images/header/icon_help_hover.png") no-repeat;
+			}
+			li.contact > a:hover > i {
+				background: url("../images/header/icon_contact_hover.png") no-repeat;
+			}
+                        li.howtoshop > a:hover > span, li.help > a:hover > span, li.contact > a:hover > span{color: #f05a22;}
+			 .form-search .input-append {
+				background-color: #FFF;
+				padding: 3px;
+			}
+			 .form-search .search-query {
+				background-image: none;
+				background-color: transparent;
+				border-radius: 0;
+				border: 0;
+				box-shadow: none;
+				width: 80%;
+                                height:30px;
+                                padding:0px 14px;
+                                font-size:14px;
+                                float:left;
+			}
+			 .form-search .btn {
+				background-color: #ee4f1f;
+				background-image: none;
+				border: 0;
+				border-radius: 0;
+				padding: 4px;
+			}
+			 .form-search .btn:hover{
+				color: #FFF;
+				background-color: #b4310c;
+				
+			}
+
+		/* Initial page */
+		.header_acc {
+			padding: 20px 0 0;
+			margin: 0 auto;
+			display: table;
+			border-bottom: 1px dotted #FFF;
+		}
+			.header_acc input {
+				font-size: 75%;
+			}
+				.header_acc .input-small {
+					width: 115px;
+				}
+				.header_acc .form-inline {
+					margin-bottom: 10px;
+				}
+				.header_acc a {
+					padding-right: 10px;
+					line-height: 22px;
+				}
+				.header_acc a:hover {
+					color: #B03915;
+				}
+		.header_newacc {
+			color: #FFF;
+			/*font-size: 16px;*/
+                        margin-top: 5px;
+		}
+                
+                .header_newacc .txt12 {
+			color: #FFFFFF;
+			font-size: 12x;
+		}
+                .header_newacc .txt13 {
+			color: #FFFFFF;
+			font-size: 13px;
+		}
+                .header_newacc .msg_member {
+			color: #FFFFFF;
+			font-size: 13px;
+                        float: left;
+		}
+			.header_newacc > div {
+				padding: 10px;
+			}
+		.h_accfield {
+			height: 170px;
+			background-color: #f05a22;
+                        margin-top: -2px;
+		}
+		/* Loged in */
+		.header_loged {
+			font-size: 1em;
+			border-bottom: 2px dotted #FFF;
+                        margin:0px 10px;
+                        padding-top: 7px;
+		}
+			.header_loged > div {
+				padding: 8px 0px;
+			}
+			.header_loged span {
+				font-size: 1em;
+			}
+		.header_loged_last {
+			border: 0;
+		}
+
+
+@media (min-width: 1000px) {
+	.h_helpfield ul > li {
+		float: left;
+		margin-bottom: 20px;
+		margin-right: 30px;
+	}
+}
+@media (max-width: 1000px) {
+	.header_acc .input-small {
+		width: 90px;
+	}
+	.header_loged > div {
+		padding: 8px 5px;
+	}
+	.header_loged span {
+		font-size: 14px;
+	}
+}
+.pw_header_logo_site{
+    width:170px;
+    float:left;
+}
+.pw_header_search{
+    width:470px;
+    float: left;
+}
+.pw_header_userbox{
+    width:350px;
+    float: right;
+}
+.pw_header_box2{
+    width:820px;
+    float: right;
+}
